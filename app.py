@@ -5,8 +5,8 @@ import json
 import datetime
 
 # Supabase setup
-SUPABASE_URL = "din-supabase-url"
-SUPABASE_KEY = "din-supabase-anon-key"
+SUPABASE_URL = "https://mjvgcagaxzeyappdciti.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1qdmdjYWdheHpleWFwcGRjaXRpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU4Nzk0NzcsImV4cCI6MjA4MTQ1NTQ3N30.MkSvy359kPwNwvZQ5aynZCWCpJpxoMUgHr7ruRxg7hI"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 st.title("Deck Styrke App - Commander Tracking")
